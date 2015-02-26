@@ -1,5 +1,4 @@
 require 'colorize'
-require 'byebug'
 
 class Piece
   attr_reader :color

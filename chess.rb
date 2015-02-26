@@ -13,6 +13,7 @@ class Chess
   def play
     until over?
       begin
+        system('clear')
         @board.render
         from, to = user_input
         check_turn(from, @turn)
